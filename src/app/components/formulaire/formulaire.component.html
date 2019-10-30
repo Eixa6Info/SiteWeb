@@ -1,0 +1,27 @@
+<div class="text-card">
+  <div *ngFor="let card of cardFormulaire" class="card">
+    <a href="#" [id]="id" (click)="showModal()"><img class="devis" [src]="card.url" [alt]="card.name"/></a>
+    <div [id]="modalId" class = "bg-modal" >
+
+      <div class="modal-contents">
+        <div [id]="closeId" class="close">
+          <a href="#" (click)="downModal()">+</a>
+        </div>
+        <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+          <h2>Faire son devis en ligne</h2>
+          <input type="text" placeholder="Nom" name="nom" ngModel>
+          <input type="email" placeholder="E-Mail" name="mail" ngModel>
+          <input type="tel" placeholder="Telephone" name="tel" ngModel>
+          <textarea id="msg" name="msg" placeholder="En quoi pouvons-nous vous aider ?" ngModel></textarea><br>
+          <div class="btn">
+            <button onclick="self.location.href='mailto:devis@eixa6.com'" value = form.value class="button" type="submit">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{card.name}}</h5>
+      <p class="card-text">{{card.text}}</p>
+    </div>
+  </div>
+</div>

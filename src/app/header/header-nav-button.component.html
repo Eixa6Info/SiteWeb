@@ -1,0 +1,4 @@
+<li *ngIf="valid" class="nav-item">
+  <a [href]="this.url" (click)="router.navigateByUrl(this.url)" class="btn btn-link nav-link" style="font-size: 20px; padding-left: 32px">
+    {{this.name}}</a>
+</li>

@@ -1,0 +1,10 @@
+<div class="text-card">
+  <div *ngFor="let card of cardsocial" class="card">
+    <a [href]="card.lien" target="_blank"><img class="img_partenaire" [src]="card.url" [alt]="card.name"/></a>
+    <div class="card-body">
+      <h5 class="card-title">{{card.name}}</h5>
+      <p class="card-text">{{card.text}}</p>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,22 @@
+.text-card {
+
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:stretch;
+
+
+  .card {
+    margin-top: 20px;
+    width: 25rem;
+    border: 0;
+  }
+
+}
+
+.img_partenaire{
+  max-width: 30%;
+}
+
+

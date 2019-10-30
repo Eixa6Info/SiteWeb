@@ -1,0 +1,15 @@
+.text-card {
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 5px;
+
+  .card {
+    margin: 10px;
+    width: 25rem;
+  }
+
+}

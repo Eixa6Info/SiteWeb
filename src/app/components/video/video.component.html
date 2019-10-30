@@ -1,0 +1,13 @@
+<div class="text-card">
+  <div *ngFor="let card of cardVideo" class="card">
+    <video controls [muted]="true" autoplay width="440" height="250">
+    <source src="assets/vidéo/vidéoEixa6.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas nos vidéos.
+    </video>
+
+    <div class="card-body">
+      <h5 class="card-title">{{card.name}}</h5>
+      <p class="card-text">{{card.text}}</p>
+    </div>
+  </div>
+</div>

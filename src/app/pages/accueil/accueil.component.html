@@ -1,0 +1,64 @@
+<div class="center">
+  <div class="topPage">
+    <app-button [cardButton]="this.anydesk"></app-button>
+    <img alt="Eixa6 Logo" src="assets/logo.png">
+    <app-video [cardVideo] ="this.video"></app-video>
+
+  </div>
+
+
+  <div id="depanages">
+    <hr>
+    <h1>Les Dépannages</h1>
+    <app-cards [cards]="this.depanages"></app-cards>
+  </div>
+
+  <div id="creations">
+    <br>
+    <hr>
+    <h1>Les Créations</h1>
+    <app-cards [cards]="this.creations"></app-cards>
+  </div>
+
+  <div id="formations">
+    <br>
+    <hr>
+    <h1>Les Formations</h1>
+    <app-cards [cards]="this.formations"></app-cards>
+  </div>
+
+  <div id="reseaux">
+    <br>
+    <hr>
+    <h1>Le Réseaux</h1>
+    <app-cards [cards]="this.reseaux"></app-cards>
+  </div>
+  <div id="actualites">
+    <br>
+    <hr>
+    <h1>Les Actualités</h1>
+    <app-cards [cards]="this.actualites"></app-cards>
+  </div>
+  <div id="ou">
+    <br>
+    <hr>
+    <h1>Où sommes-nous ?</h1>
+    <app-maps [cardMap]="this.ou"></app-maps>
+  </div>
+
+  <div id="contact">
+    <br>
+    <hr>
+    <h1>Pour nous contacter</h1>
+    <app-cards [cards]="this.contact"></app-cards>
+  </div>
+
+  <div id="social">
+    <br>
+    <hr>
+    <h4>Réseaux sociaux</h4>
+    <br>
+    <app-social [cardsocial]="this.social"></app-social>
+  </div>
+
+</div>

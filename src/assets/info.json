@@ -1,0 +1,146 @@
+{
+  "video": [
+    {
+      "url": "assets/vidéo/vidéoEixa6.mp4"
+    }
+  ],
+  "anydesk": [
+    {
+      "lien" : "https://anydesk.com/fr/downloads",
+      "url": "assets/images/topPage/annyDesk.png"
+    },
+    {
+      "lien": "https://www.ebp.com/",
+      "url": "assets/images/topPage/ebp.png"
+    },
+    {
+      "lien": "https://www.brother.fr/",
+      "url": "assets/images/topPage/Brother.png"
+    }
+  ],
+  "devis" : [
+    {
+      "lien" : "#",
+      "url": "assets/images/topPage/devis.png"
+    }
+  ],
+  "actualites": [
+    {
+      "name": "Publié le 30 oct 2019",
+      "text": "Notre collaborateur Bastien Delprat vice-champion régional en planche à voile participe ce week-end au championnat de France WINDSURF 2019 à Quiberon. Avec ses coéquipiers, il représentera l’équipe Nouvelle-Aquitaine et parmi plus de 100 planchistes, il tentera de gagner la première place de sa catégorie BIC+293. Bastien nous a rejoint en septembre chez EIXA6 Informatique pour obtenir sa licence en alternance en tant que développeur fullstack web et mobile. Nous lui souhaitons bonne chance et plein de réussite pour sa compétition !",
+      "url": "assets/images/information/info3.png"
+    },
+    {
+      "name": "Publié le 18 oct. 2019",
+      "text": "Pour l'automne, un grand nombre de promotions sont disponibles ! N'hésitez pas à venir nous visiter à Marennes. Nos interventions ne se limitent pas notre ville de base, nous intervenons de Royan à Chassiron, des Mathes à Rochefort ! https://www.eixa6.com",
+      "url": "assets/images/information/info1.png"
+    },
+    {
+      "name": "Publié le 4 juil. 2019",
+      "text": "L'équipe d'eixa6 vous propose .... matériel, dépannage, logiciel, maintenance. En attendant, installez la nouvelle appli mobile https://play.google.com/store/apps/details?id=com.eixa6.appeixa6&hl=fr_CH",
+      "url": "assets/images/information/info2.png"
+    }
+  ],
+  "contact": [
+    {
+      "name": "Contact@eixa6.com",
+      "text": "Vous pouvez nous contacter par E-mail a tous moment.",
+      "url": "assets/images/contact/email.jpg"
+    },
+    {
+      "name": "Au bureau",
+      "text": "Vous pouvez venir au bureau pour voir des techniciens qui répondront à toutes vos questions",
+      "url": "assets/images/ou/Horraire.PNG"
+    },
+    {
+      "name": "05 46 75 77 15",
+      "text": "Vous pouvez toujours nous contacter par téléphone entre 9H et 17H, du lundi au vendredi.",
+      "url": "assets/images/contact/telephone.jpg"
+    }
+  ],
+  "social": [
+    {
+      "url": "assets/images/contact/facebook.png",
+      "lien": "https://www.facebook.com/eixa6/"
+    },
+    {
+      "url": "assets/images/contact/insta.png",
+      "lien": "https://www.instagram.com/eixa6/"
+    },
+    {
+      "url": "assets/images/contact/linkedin.png",
+      "lien": "https://www.linkedin.com/company/eixa6-informatique/"
+    }
+  ],
+  "creations": [
+    {
+      "name": "Desktop",
+      "text": "Création d'applications desktop. Le développement est adapté à vos besoins. Ce n'est pas les utilisateurs qui s'adapatent à la machine, mais la machine qui sera adaptée aux utilisateurs.",
+      "url": "assets/images/creations/desktop.jpg"
+    },
+    {
+      "name": "Mobiles",
+      "text": "Création d'applications mobiles. Le développement est adapté à vos besoins. Ce n'est pas les utilisateurs qui s'adapatent à la machine, mais la machine qui sera adaptée aux utilisateurs.",
+      "url": "assets/images/creations/mobile.jpg"
+    },
+    {
+      "name": "Sites web",
+      "text": "Création d'applications web. Le développement est adapté à vos besoins. Ce n'est pas les utilisateurs qui s'adapatent à la machine, mais la machine qui sera adaptée aux utilisateurs.",
+      "url": "assets/images/creations/web.jpg"
+    }
+  ],
+  "depanages": [
+    {
+      "name": "Virus et Spywares",
+      "text": "Les Virus et Spywares sont de plus en plus présents sur nos PC, ils compromettent la confidentialité de vos données, n’hésitez pas à faire appel à nos services.",
+      "url": "assets/images/depanages/virus.jpg"
+    },
+    {
+      "name": "Sauvegarde",
+      "text": "Pensez vous que vos fichiers word, excel et surtout vos photos sont en sécurité sur votre ordinateur ? Nous vous proposons des solutions de sauvegarde adaptées à vos besoins pour mettre en sécurité.",
+      "url": "assets/images/depanages/sauvegarde.jpg"
+    },
+    {
+      "name": "Installation Internet",
+      "text": "Vous n’êtes pas encore connecté à Internet, nous vous proposons d’installer internet de A à Z chez vous.",
+      "url": "assets/images/depanages/internet.jpg"
+    },
+    {
+      "name": "Matériel",
+      "text": "Nous vous proposons des configurations sur mesure. (Achat du PC, installation, personnalisation...) après avoir étudié vos besoins.",
+      "url": "assets/images/depanages/materiel.jpg"
+    }
+  ],
+  "formations": [
+    {
+      "name": "Formation",
+      "text": "Formations au développement d'applications. Réalisées pour le compte d'organismes de formation.",
+      "url": "assets/images/formation/formation.jpg"
+    }
+  ],
+  "ou": [
+    {
+      "name": "Nous trouver",
+      "text": "Eixa6 informatique 5 rue Louise Michel 17320 MARENNES",
+      "url": "assets/images/ou/map2.png",
+      "lien": "https://www.google.fr/maps/place/Eixa6+Informatique/@45.8184664,-1.1092871,17z/data=!4m12!1m6!3m5!1s0x480165e0bb699b75:0x73a17e0e649f37de!2sEixa6+Informatique!8m2!3d45.8186272!4d-1.108579!3m4!1s0x480165e0bb699b75:0x73a17e0e649f37de!8m2!3d45.8186272!4d-1.108579"
+    }
+  ],
+  "reseaux": [
+    {
+      "name": "Réseaux",
+      "text": "Intervention sur les réseaux, installations de routeurs, switch et autres équipements de votre réseau. Mise en œuvre des éléments essentiels du réseau.",
+      "url": "assets/images/reseaux/reseaux.jpg"
+    },
+    {
+      "name": "Sauvegarde",
+      "text": "Les sauvegardes en réseaux, par exemple avec des NAS, représentent un moyen sûr et efficient de garder sous la main les données de l'entreprise, sans risque de perte.",
+      "url": "assets/images/reseaux/sauvegarde.jpg"
+    },
+    {
+      "name": "Cloud",
+      "text": "La sauvegarde de vos données dans le cloud, c'est la garantie que vos données sont en sécurité, même en cas de destruction physique de vos locaux.",
+      "url": "assets/images/reseaux/cloud.jpg"
+    }
+  ]
+}
