@@ -14,6 +14,7 @@ import {FormsModule} from '@angular/forms';
 import { SocialComponent } from './components/social/social.component';
 import { MapsComponent } from './components/maps/maps.component';
 import { ConditionGeneraleComponent } from './pages/condition-generale/condition-generale.component';
+import { LogoComponent } from './components/logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ConditionGeneraleComponent } from './pages/condition-generale/condition
     FormulaireComponent,
     SocialComponent,
     MapsComponent,
-    ConditionGeneraleComponent
+    ConditionGeneraleComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,9 @@
 {
+  "logo": [
+    {
+      "url": "assets/logo.png"
+    }
+  ],
   "video": [
     {
       "url": "assets/vidéo/vidéoEixa6.mp4"

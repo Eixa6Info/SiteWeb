@@ -16,6 +16,7 @@ export class Data {
   public anydesk: Card[] = [];
   public devis: Card[] = [];
   public social: Card[] = [];
+  public logo: Card[] = [];
   private data = info;
 
   constructor() {
@@ -81,6 +82,11 @@ export class Data {
 
     this.data.social.forEach((value) => {
       this.social.push(
+        new Card(value.name, value.text, value.url, value.lien)
+      );
+    });
+    this.data.logo.forEach((value) => {
+      this.logo.push(
         new Card(value.name, value.text, value.url, value.lien)
       );
     });

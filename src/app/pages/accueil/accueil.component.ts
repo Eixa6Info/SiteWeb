@@ -20,6 +20,7 @@ export class AccueilComponent implements OnInit {
   anydesk: Card[] = [];
   devis: Card[] = [];
   social: Card[] = [];
+  logo: Card[] = [];
 
 
   constructor() {
@@ -36,7 +37,7 @@ export class AccueilComponent implements OnInit {
     this.anydesk = data.anydesk;
     this.devis = data.devis;
     this.social = data.social;
-
+    this.logo = data.logo;
   }
 
   ngOnInit() {

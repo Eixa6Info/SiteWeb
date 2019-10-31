@@ -1,0 +1,17 @@
+.text-card {
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 5px;
+
+  .card {
+    margin-top: 10px;
+    margin-bottom: -100px;
+    width: 25rem;
+    border: #FFFFFF;
+  }
+
+}
